@@ -1,4 +1,4 @@
-var Contact = React.creatClass({
+var Contact = React.createClass({
   propTypes: {
     iteam: React.PropTypes.object.isRequired,
   },
