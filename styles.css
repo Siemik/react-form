@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(45deg, rgb(64, 140, 190) 0%, rgb(64, 140, 190) 7%,rgb(62, 107, 145) 7%, rgb(62, 107, 145) 9%,rgb(49, 99, 131) 9%, rgb(49, 99, 131) 11%,rgb(116, 172, 211) 11%, rgb(116, 172, 211) 26%,rgb(125, 182, 214) 26%, rgb(125, 182, 214) 34%,rgb(40, 90, 136) 34%, rgb(40, 90, 136) 41%,rgb(39, 123, 190) 41%, rgb(39, 123, 190) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+#app {
+  padding-top: 100px;
+  font-family: 'Lato', sans-serif;
+}
+.app {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  /* border: 10px solid black; */
+  /* border-radius: 60px; */
+}
+/* 50% of #app */
+.contactForm {
+  margin-top: 30px;
+  order:0;
+  width: 50%;
+}
+input, button{
+  width: 400px;
+  display: block;
+  margin: 15px auto;
+}
+input {
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+button {
+  width: 120px;
+  height: 40px;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  margin: 0 50px;
+}
+
+/* other 50% of #app */
+.contactList {
+  order:1;
+  width: 50%;
+  background-color:white;
+}
+.contactItem{
+  width: 50%;
+  margin: 40px 0;
+}
+.contactImage {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.contactLabel {
+  width: 400px;
+  margin: 20px 0;
+}
+.contactEmail {
+  text-decoration: none;
+  color: #e0e0e0;
+}
