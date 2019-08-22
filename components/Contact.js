@@ -7,7 +7,7 @@ var Contact = React.createClass({
       React.createElement('div', {className: 'contactItem'},
         React.createElement('img', {
           className: 'contactImage',
-          src: 'https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-contact-512.png'
+          src: 'https://zenoncar.com/wp-content/uploads/2015/08/zenon-icons-profile-01.png'
         }),
         React.createElement('p', {className: 'contactLabel'}, 'Imię: ' + this.props.item.firstName),
         React.createElement('p', {className: 'contactLabel'}, 'Nazwisko: ' + this.props.item.lastName),
